@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Детейлинг Гараж Максима | Профессиональный уход</title>
+    <meta name="description" content="Профессиональный детейлинг вашего автомобиля: химчистка салона, полировка кузова, нанесение керамики и комплексная мойка.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- NAV -->
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-text">DETAILING</span><span class="logo-accent">GARAGE</span>
+            </div>
+            <div class="nav-links">
+                <a href="#services" class="nav-link">УСЛУГИ</a>
+                <a href="#gallery" class="nav-link">ОТЗЫВЫ И РАБОТЫ</a>
+                <a href="#about" class="nav-link">О НАС</a>
+                <a href="#booking" class="nav-link nav-cta">СВЯЗАТЬСЯ</a>
+            </div>
+            <div class="mobile-menu-toggle" id="mobile-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- MOBILE NAV -->
+    <div class="mobile-nav" id="mobile-nav">
+        <div class="mobile-nav-content">
+            <a href="#services" class="mobile-nav-link">Услуги</a>
+            <a href="#gallery" class="mobile-nav-link">Работы</a>
+            <a href="#about" class="mobile-nav-link">О нас</a>
+            <a href="#booking" class="btn btn-primary" style="margin-top: 2rem;">Записаться</a>
+        </div>
+    </div>
+
+    <!-- HERO SECTION -->
+    <header class="hero section">
+        <div class="hero-bg">
+            <video autoplay muted loop playsinline class="hero-video">
+                <source src="assets/videos/hero-bg.mp4" type="video/mp4">
+            </video>
+            <div class="hero-overlay"></div>
+            <div class="hero-gradient"></div>
+        </div>
+        
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">Профессиональный детейлинг вашего автомобиля</h1>
+                <p class="hero-subtitle">Вернём автомобилю состояние как из салона</p>
+                <div class="hero-actions">
+                    <a href="#booking" class="btn-hero">
+                        <span class="btn-text">ЗАПИСАТЬСЯ</span>
+                    </a>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- SERVICES -->
+    <section id="services" class="section services-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="glitch-line"></div>
+                <h2 class="section-title">НАШИ УСЛУГИ</h2>
+                <p class="section-desc">Комплексный уход за вашим автомобилем с использованием премиальной химии.</p>
+            </div>
+            <div class="services-list">
+                <!-- Карта 1 -->
+                <div class="service-row">
+                    <div class="service-text-content">
+                        <h3 class="service-title-new">Химчистка салона</h3>
+                        <p class="service-text-new">Глубокая очистка всех поверхностей от грязи, пятен и запахов. Пластик, кожа, текстиль.</p>
+                        <div class="service-price-new">120€</div>
+                    </div>
+                    <div class="service-visual">
+                        <div class="service-watermark">ХИМЧИСТКА</div>
+                        <div class="service-image-mask">
+                            <img src="assets/images/service-dry-cleaning.jpg" alt="Химчистка салона" class="service-image-skewed">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Карта 2 -->
+                <div class="service-row service-row-reverse">
+                    <div class="service-text-content">
+                        <h3 class="service-title-new">Полировка кузова</h3>
+                        <p class="service-text-new">Восстановление идеального блеска ЛКП, устранение царапин, голограмм и помутнений.</p>
+                        <div class="service-price-new">150€</div>
+                    </div>
+                    <div class="service-visual">
+                        <div class="service-watermark">ПОЛИРОВКА</div>
+                        <div class="service-image-mask">
+                            <img src="assets/images/service-polish.jpg" alt="Полировка кузова" class="service-image-skewed">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Карта 3 -->
+                <div class="service-row">
+                    <div class="service-text-content">
+                        <h3 class="service-title-new">Керамическое покрытие</h3>
+                        <p class="service-text-new">Защита кузова от реагентов, выгорания и мелких царапин. Мощный гидрофобный эффект.</p>
+                        <div class="service-price-new">от 250€</div>
+                    </div>
+                    <div class="service-visual">
+                        <div class="service-watermark">КЕРАМИКА</div>
+                        <div class="service-image-mask">
+                            <img src="assets/images/service-ceramic.jpg" alt="Керамическое покрытие" class="service-image-skewed">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Карта 4 -->
+                <div class="service-row service-row-reverse">
+                    <div class="service-text-content">
+                        <h3 class="service-title-new">Комплексная мойка</h3>
+                        <p class="service-text-new">Деликатная двухфазная мойка, уборка салона, очистка дисков и чернение резины.</p>
+                        <div class="service-price-new">40€</div>
+                    </div>
+                    <div class="service-visual">
+                        <div class="service-watermark">МОЙКА</div>
+                        <div class="service-image-mask">
+                            <img src="assets/images/service-wash.jpg" alt="Комплексная мойка" class="service-image-skewed">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALLERY (WORKS) -->
+    <section id="gallery" class="section gallery-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="glitch-line"></div>
+                <h2 class="section-title">НАШИ РАБОТЫ</h2>
+                <p class="section-desc">Результаты до и после.</p>
+            </div>
+            
+            <div class="gallery-grid">
+                <!-- Фото 1 -->
+                <div class="gallery-item">
+                    <img src="assets/images/gallery-polishing.jpg" alt="Работа 1" class="gallery-img">
+                    <div class="gallery-overlay">Полировка и Керамика</div>
+                </div>
+                <!-- Фото 2 -->
+                <div class="gallery-item">
+                    <img src="assets/images/gallery-washing.jpg" alt="Работа 2" class="gallery-img">
+                    <div class="gallery-overlay">Детейлинг мойка</div>
+                </div>
+                <!-- Фото 3 -->
+                <div class="gallery-item">
+                    <img src="assets/images/hero-bg.jpg" alt="Работа 3" class="gallery-img">
+                    <div class="gallery-overlay">Финальный результат</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT / WHY US -->
+    <section id="about" class="section about-section">
+        <div class="about-bg"></div>
+        <div class="container">
+            <div class="section-header">
+                <div class="glitch-line"></div>
+                <h2 class="section-title">ПОЧЕМУ ВЫБИРАЮТ НАС</h2>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-number">01</div>
+                    <h4 class="feature-title">Опыт 6 лет</h4>
+                    <p class="feature-text">Знаем все тонкости работы с любыми марками авто и типами лакокрасочного покрытия.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-number">02</div>
+                    <h4 class="feature-title">Профессиональная химия</h4>
+                    <p class="feature-text">Используем только проверенные премиальные составы, безопасные для материалов.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-number">03</div>
+                    <h4 class="feature-title">Аккуратная работа</h4>
+                    <p class="feature-text">Внимание к мельчайшим деталям, бережное отношение к салону и кузову.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-number">04</div>
+                    <h4 class="feature-title">Гарантия результата</h4>
+                    <p class="feature-text">Вы оплачиваете работу только после того, как примете результат лично.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WORKFLOW -->
+    <section class="section workflow-section">
+        <div class="container">
+            <div class="section-header align-center">
+                <h2 class="section-title">КАК ПРОХОДИТ РАБОТА</h2>
+            </div>
+            
+            <div class="workflow-grid">
+                <div class="workflow-step">
+                    <div class="step-icon">01</div>
+                    <h4 class="step-title">Вы записываетесь</h4>
+                </div>
+                <div class="workflow-step">
+                    <div class="step-icon">02</div>
+                    <h4 class="step-title">Привозите автомобиль</h4>
+                </div>
+                <div class="workflow-step">
+                    <div class="step-icon">03</div>
+                    <h4 class="step-title">Мы делаем детейлинг</h4>
+                </div>
+                <div class="workflow-step">
+                    <div class="step-icon">04</div>
+                    <h4 class="step-title">Забираете чистую машину</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BOOKING & CONTACTS -->
+    <section id="booking" class="section booking-section" style="background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('assets/images/hero-bg.jpg') center/cover;">
+        <div class="container booking-container">
+            <div class="booking-content">
+                <h2 class="booking-title">ЗАПИШИТЕСЬ НА ДЕТЕЙЛИНГ СЕГОДНЯ</h2>
+                <p class="booking-subtitle">Оставьте заявку в WhatsApp или позвоните нам для консультации и расчета стоимости.</p>
+                
+                <div class="booking-actions">
+                    <a href="https://wa.me/1234567890" target="_blank" class="btn btn-whatsapp">
+                        <span class="btn-text">Написать в WhatsApp</span>
+                    </a>
+                    <a href="tel:+1234567890" class="btn btn-outline">
+                        <span class="btn-text">Позвонить</span>
+                    </a>
+                </div>
+
+                <form class="form-builder" action="#" method="POST">
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <input type="text" name="car_info" class="form-control" placeholder="Марка, модель, год выпуска *" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="full_name" class="form-control" placeholder="Имя Фамилия *" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" class="form-control" placeholder="Электронная почта *" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" name="phone" class="form-control" placeholder="Телефон *" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-services">
+                        <h4 class="services-label">Выберите услуги:</h4>
+                        <div class="checkbox-grid">
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="services" value="Керамика">
+                                <span class="checkbox-custom"></span>
+                                Керамическое покрытие
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="services" value="Химчистка">
+                                <span class="checkbox-custom"></span>
+                                Химчистка салона
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="services" value="Полировка">
+                                <span class="checkbox-custom"></span>
+                                Полировка кузова
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="services" value="Мойка">
+                                <span class="checkbox-custom"></span>
+                                Комплексная мойка
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form-terms">
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="terms" required>
+                            <span class="checkbox-custom"></span>
+                            <span class="terms-text">Я согласен с условиями предоставления услуг. Указывая свой номер, я даю согласие на получение звонков и сообщений от Detailing Garage Максима.</span>
+                        </label>
+                    </div>
+
+                    <div class="form-submit">
+                        <button type="submit" class="btn-hero">
+                            <span class="btn-text">ПОЛУЧИТЬ РАСЧЕТ И ЗАПИСАТЬСЯ</span>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-left">
+                <div class="logo">
+                    <span class="logo-text">DETAILING</span><span class="logo-accent">GARAGE</span>
+                </div>
+                <p class="footer-desc">Премиальный уход за автомобилем. Возвращаем блеск и свежесть с любовью к каждой детали.</p>
+            </div>
+            
+            <div class="footer-right">
+                <h4 class="footer-heading">КОНТАКТЫ</h4>
+                <ul class="footer-contacts">
+                    <li>ТЕЛЕФОН: <a href="tel:+1234567890">+1 (234) 567-890</a></li>
+                    <li>СЕТЬ: <a href="https://wa.me/1234567890">WhatsApp</a></li>
+                    <li>АДРЕС: Ваш гараж, Город, Улица 123</li>
+                </ul>
+            </div>
+        </div>
+        <div class="container">
+            <div class="footer-bottom">
+                <p>&copy; 2026 Detailing Garage "Maksim". Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
