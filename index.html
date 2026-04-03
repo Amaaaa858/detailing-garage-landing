@@ -7,7 +7,7 @@
     <meta name="description" content="Профессиональный детейлинг вашего автомобиля: химчистка салона, полировка кузова, нанесение керамики и комплексная мойка.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500&family=Rajdhani:wght@400;500;600;700&family=Russo+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -38,7 +38,9 @@
             <a href="#services" class="mobile-nav-link">Услуги</a>
             <a href="#gallery" class="mobile-nav-link">Работы</a>
             <a href="#about" class="mobile-nav-link">О нас</a>
-            <a href="#booking" class="btn btn-primary" style="margin-top: 2rem;">Записаться</a>
+            <a href="#booking" class="btn btn-outline" style="margin-top: 2rem;">
+                <span class="btn-text">ЗАПИСАТЬСЯ</span>
+            </a>
         </div>
     </div>
 
@@ -151,21 +153,35 @@
                 <p class="section-desc">Результаты до и после.</p>
             </div>
             
-            <div class="gallery-grid">
-                <!-- Фото 1 -->
-                <div class="gallery-item">
-                    <img src="assets/images/gallery-polishing.jpg" alt="Работа 1" class="gallery-img">
-                    <div class="gallery-overlay">Полировка и Керамика</div>
+            <div class="ba-container">
+                <!-- Пример 1: Полировка -->
+                <div class="ba-pair">
+                    <h3 class="ba-title">Восстановление ЛКП (Полировка)</h3>
+                    <div class="ba-images">
+                        <div class="ba-side">
+                            <span class="ba-label">ДО</span>
+                            <img src="assets/images/hero-bg.jpg" alt="Авто до полировки" class="ba-img">
+                        </div>
+                        <div class="ba-side">
+                            <span class="ba-label ba-label-after">ПОСЛЕ</span>
+                            <img src="assets/images/gallery-polishing.jpg" alt="Авто после полировки" class="ba-img">
+                        </div>
+                    </div>
                 </div>
-                <!-- Фото 2 -->
-                <div class="gallery-item">
-                    <img src="assets/images/gallery-washing.jpg" alt="Работа 2" class="gallery-img">
-                    <div class="gallery-overlay">Детейлинг мойка</div>
-                </div>
-                <!-- Фото 3 -->
-                <div class="gallery-item">
-                    <img src="assets/images/hero-bg.jpg" alt="Работа 3" class="gallery-img">
-                    <div class="gallery-overlay">Финальный результат</div>
+                
+                <!-- Пример 2: Химчистка -->
+                <div class="ba-pair">
+                    <h3 class="ba-title">Химчистка салона</h3>
+                    <div class="ba-images">
+                        <div class="ba-side">
+                            <span class="ba-label">ДО</span>
+                            <img src="assets/images/hero-bg.jpg" alt="Салон до химчистки" class="ba-img">
+                        </div>
+                        <div class="ba-side">
+                            <span class="ba-label ba-label-after">ПОСЛЕ</span>
+                            <img src="assets/images/gallery-polishing.jpg" alt="Салон после химчистки" class="ba-img">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
